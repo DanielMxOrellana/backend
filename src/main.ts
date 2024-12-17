@@ -17,8 +17,8 @@ async function bootstrap() {
 
   // Swagger Configuration
   const config = new DocumentBuilder()
-    .setTitle(' Viaje espacial API')
-    .setDescription('API documentation for Viaje espacial')
+    .setTitle(' REST API')
+    .setDescription('CRUD para listas de deseos')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
